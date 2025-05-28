@@ -105,12 +105,6 @@ Feel free to fork the repository and submit a Pull Request.
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 👨‍💻 Author
 
 **[Your Name]**  
