@@ -107,7 +107,7 @@ Feel free to fork the repository and submit a Pull Request.
 
 ## 👨‍💻 Author
 
-**[Your Name]**  
+**Rathaamani**  
 Automation Engineer | Java Developer  
-📧 your.email@example.com  
-🌐 [LinkedIn/GitHub Profile URL]
+📧 rathaamani2001@gmail.com  
+🌐 https://www.linkedin.com/in/rathaamani
