@@ -1,6 +1,4 @@
-# Creating the README.md file content for the Amazon Automation Project
-
-readme_content = """# 🛒 Amazon Automation Project
+# 🛒 Amazon Automation Project
 
 This project is a **Selenium-based Test Automation Framework** designed to automate various functionalities of the Amazon India website. It demonstrates professional-level automation using the **Page Object Model (POM)** design pattern, **TestNG**, **WebDriverManager**, and **Maven** for efficient and scalable test development.
 
@@ -33,3 +31,89 @@ This project is a **Selenium-based Test Automation Framework** designed to autom
 | Firefox           | Default browser for testing (configurable)    |
 
 ---
+
+## 🗂️ Project Structure
+
+```
+amazon-automation/
+│
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── pages/             # Page Object classes
+│   │       └── utils/             # Utility functions (e.g., Waits, ConfigReader)
+│   │
+│   └── test/
+│       └── java/
+│           └── tests/            # TestNG test cases
+│           └── base/             # BaseTest class setup/teardown
+│
+├── testng.xml                    # Test suite configuration
+├── pom.xml                       # Maven configuration file
+└── README.md                     # Project documentation
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/amazon-automation.git
+cd amazon-automation
+```
+
+### 2. Build the Project
+
+```bash
+mvn clean install
+```
+
+### 3. Run Tests
+
+```bash
+mvn test
+```
+
+Or run using TestNG from your IDE using the `testng.xml` file.
+
+---
+
+## 📷 Sample Test Case
+
+- Search for **Adidas Cricket Bats**
+- Apply **price filter: ₹7500 - ₹10000**
+- Add **5 products** to the cart
+- Validate if all items are added successfully
+
+---
+
+## 📌 To-Do / Future Enhancements
+
+- ✅ Login/Signup automation
+- ✅ Checkout and payment flow (mock or stubbed)
+- ⏳ Integration with Jenkins and Allure reports
+- ⏳ Integration with Docker for test containerization
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to fork the repository and submit a Pull Request.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 👨‍💻 Author
+
+**[Your Name]**  
+Automation Engineer | Java Developer  
+📧 your.email@example.com  
+🌐 [LinkedIn/GitHub Profile URL]
