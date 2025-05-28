@@ -33,24 +33,3 @@ This project is a **Selenium-based Test Automation Framework** designed to autom
 | Firefox           | Default browser for testing (configurable)    |
 
 ---
-
-## 🗂️ Project Structure
-
-amazon-automation/
-│
-├── src/
-│ ├── main/
-│ │ └── java/
-│ │ └── pages/ # Page Object classes
-│ │ └── utils/ # Utility functions (e.g., Waits, ConfigReader)
-│ │
-│ └── test/
-│ └── java/
-│ └── tests/ 
-        # BaseTest class setup/teardown
-        # TestNG test cases
-│  
-│
-├── testng.xml # Test suite configuration
-├── pom.xml # Maven configuration file
-└── README.md # Project documentation
